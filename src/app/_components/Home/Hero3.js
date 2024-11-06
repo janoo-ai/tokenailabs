@@ -32,10 +32,10 @@ function Hero3() {
     <div className="w-full h-fit  text-center p-2 sm:p-4 md:p-10  text-slate-50 bg-[rgba(0,0,0,0.9)] ">
       <div className="flex flex-1 flex-col rounded-xl p-2 sm:p-4 md:p-10 md:pb- bg-gradient-to-r from-zinc-900 via-teal-900 to-zinc-900">
         <div className="w-full flex flex-col justify-center items-center gap-2">
-          <h6 class="mt-5 poppins-medium relative">
-            <span class="before:content[''] before:h-0.5 before:w-20 before:bg-white before:translate-y-1/2 before:absolute before:top-1/2 before:right-[100%] before:mr-2 "></span>
+          <h6 className="mt-5 poppins-medium relative">
+            <span className="before:content[''] before:h-0.5 before:w-20 before:bg-white before:translate-y-1/2 before:absolute before:top-1/2 before:right-[100%] before:mr-2 "></span>
             <span> How We Do It</span>
-            <span class="after:content[''] after:h-0.5 after:w-20 after:bg-white after:-translate-y-1/2 after:absolute after:left-[100%] after:top-1/2 after:ml-2"></span>
+            <span className="after:content[''] after:h-0.5 after:w-20 after:bg-white after:-translate-y-1/2 after:absolute after:left-[100%] after:top-1/2 after:ml-2"></span>
           </h6>
 
           <h5 className="text-2xl poppins-extrabold ">4E Model</h5>
@@ -52,7 +52,7 @@ function Hero3() {
           {data.map((item, index) => (
             <div
               key={index}
-              className="col-span-3 bg-[rgba(255,255,255,0.1)] p-2 rounded-lg hover:invert hover:bg-black flex flex-col justify-center items-center">
+              className="col-span-12 sm:col-span-6 md:col-span-3 bg-[rgba(255,255,255,0.1)] p-2 rounded-lg hover:invert hover:bg-black flex flex-col justify-center items-center">
               <Image src={item.src} width={100} height={80} alt={item.title} />
               <h3 className="text-2xl mt-5">{item.title}</h3>
               <p className="poppins-medium text-sm mt-2">{item.des}</p>

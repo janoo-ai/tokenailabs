@@ -41,16 +41,16 @@ function Page() {
           background:
             "radial-gradient(circle, rgba(51 ,65 ,85,1 ) 1%, rgba(4, 47, 46, 1) 92%)",
         }}>
-        <div className="w-full min-h-[80vh]">
-          <div className="bg-trans-black  flex-grow w-full min-h-full flex flex-col md:flex-row p-3 sm:p-5 md:p-10">
-            <div className="w-full md:w-1/2 h-full">
+        <div className="w-full h-fit bg-trans-black pt-16 md:pt-20 lg:pt-16">
+          <div className="flex-grow w-full   flex flex-col md:flex-row p-3 md:p-5 lg:p-10">
+            <div className="w-full md:w-1/2 flex  bg-trans-black justify-center items-center   ">
               <Image
                 src={aboutlogo}
                 alt="about bot robot logo"
-                className="w-full h-full bg-trans-black  "
+                className="w-full"
               />
             </div>
-            <div className=" gap-3 poppins-regular w-full md:w-1/2 min-h-full bg-trans-black p-3 sm:p-5 md:p-10 flex flex-col justify-center">
+            <div className=" gap-3 poppins-regular w-full md:w-1/2  bg-trans-black p-3 md:p-5 lg:p-10 flex flex-col justify-center">
               <div className="font-semibold text-teal-400 relative before:content-[''] before:w-16 before:absolute before:top-1/2  before:left-0 before:transform before:-tranteal-y-1/2 before:h-1 before:bg-gradient-to-r before:from-fuchsia-600 before:to-pink-600 pl-20 ">
                 About Us
               </div>

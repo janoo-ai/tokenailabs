@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Hero1() {
   return (
-    <div className="  bg-gradient-to-b from-black via-teal-950 to-gray-950">
+    <div className="  bg-gradient-to-b from-black via-teal-950 to-gray-950 mt-16 md:mt-0 pt-10">
       <div className="bg-[rgba(0,0,0,0.2)] w-full h-fit flex flex-1 flex-col md:flex-row justify-center items-center p-2 sm:p-4 md:p-10 md:px-20">
         <div className="flex flex-1 flex-col gap-1  ">
           <span className="break-word  poppins-medium  text-base text-cyan-300">
