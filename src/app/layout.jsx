@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./_components/Navbar/Navbar";
 import Footer from "./_components/Footer/Footer";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,24 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen flex flex-col items-center overflow-x-hidden bg-none`}>
         <Navbar className={"z-50"} />
         {children}
+        <Script
+          id="chatbot-config"
+          strategy="beforeInteractive" // Or "afterInteractive" depending on when you want the script to run
+        >
+          {`
+          window.embeddedChatbotConfig = {
+            chatbotId: "5aeb17ca-e466-49b4-94f2-b7afec06e636",
+            domain: "jaano.ai",
+            queryexpansion: false,
+            reranking: false,
+          };
+        `}
+        </Script>
+        <Script
+          src="http://jaano.ai/chatbot-embedding.js"
+          defer
+          strategy="beforeInteractive"
+          ed></Script>
       </body>
     </html>
   );
