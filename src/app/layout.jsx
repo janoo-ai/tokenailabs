@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
         `}
         </Script>
         <Script
-          src="http://jaano.ai/chatbot-embedding.js"
+          src="https://jaano.ai/chatbot-embedding.js"
           defer
           strategy="beforeInteractive"
           ed></Script>
