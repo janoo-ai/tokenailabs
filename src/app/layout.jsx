@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./_components/Navbar/Navbar";
 import Footer from "./_components/Footer/Footer";
 import Script from "next/script";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,6 +25,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -43,8 +48,8 @@ export default function RootLayout({ children }) {
           window.embeddedChatbotConfig = {
             chatbotId: "5aeb17ca-e466-49b4-94f2-b7afec06e636",
             domain: "jaano.ai",
-            queryexpansion: false,
-            reranking: false,
+            queryexpansion: true,
+            reranking: true,
           };
         `}
         </Script>
