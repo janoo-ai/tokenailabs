@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
           window.embeddedChatbotConfig = {
             chatbotId: "5aeb17ca-e466-49b4-94f2-b7afec06e636",
             domain: "jaano.ai",
-            queryexpansion: true,
+            queryexpansion: false,
             reranking: true,
           };
         `}
