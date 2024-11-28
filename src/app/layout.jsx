@@ -46,15 +46,15 @@ export default function RootLayout({ children }) {
         >
           {`
           window.embeddedChatbotConfig = {
-            chatbotId: "5aeb17ca-e466-49b4-94f2-b7afec06e636",
-            domain: "jaano.ai",
+            chatbotId: "5fec40b0-390e-4a5d-a86d-e0cc9c1f7481",
+            domain: "localhost:3000",
             queryexpansion: false,
             reranking: true,
           };
         `}
         </Script>
         <Script
-          src="https://jaano.ai/chatbot-embedding.js"
+          src="http://localhost:3000/chatbot-embedding.js"
           defer
           strategy="beforeInteractive"
           ed></Script>

@@ -141,8 +141,8 @@ function Page() {
           background:
             "radial-gradient(circle, rgba(4, 47, 46, 1) 10%, rgba(2 ,6, 23,1) 90%)",
         }}>
-        <div className=" bg-trans-black  w-full h-fit flex justify-center items-center ">
-          <div className="w-full h-full p-3 sm:p-5 md:px-10 ">
+        {/*<div className=" bg-trans-black  w-full h-fit flex justify-center items-center ">
+           <div className="w-full h-full p-3 sm:p-5 md:px-10 ">
             <div className=" w-full gap-3 rounded-xl h-full p-3 sm:p-5 md:p-10 flex flex-col justify-center items-center gap-2">
               <div className="mt-10 text-sm md:text-base font-semibold text-teal-400 relative before:content-[''] before:w-16 before:absolute before:top-1/2  before:left-0 before:transform before:-tranteal-y-1/2 before:h-1 before:bg-gradient-to-r before:from-fuchsia-600 before:to-pink-600 pl-20 ">
                 Meet our Team
@@ -201,7 +201,7 @@ function Page() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="w-full h-fit  p-0 "
           style={{
