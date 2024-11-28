@@ -7,6 +7,7 @@ import { FaBattleNet } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import Image from "next/image";
 
 const socialIcons = [
   {
@@ -33,9 +34,12 @@ function Footer() {
       <div className="footerimg  bg-cover w-full h-fit p-3 md:p-10 md:px-20 ">
         <div className="w-full flex flex-col md:flex-row justify-between z-20">
           <div className="flex flex-col gap-2">
-            <h4 className="text-2xl poppins-bold tracking-widest">
-              Token AI Labs Pvt. Ltd.
-            </h4>
+            <div className="flex flex-col gap-2 justify-center w-fit h-fit">
+              <Image height={200} width={200} src="/logo.jpg" />
+              <h4 className="text-xl poppins-bold tracking-widest">
+                Token AI Labs Pvt. Ltd.
+              </h4>
+            </div>
             <div className="w-fill h-0.5 bg-slate-50 rounded"></div>
             <div className="flex flex-col justify-center gap-3">
               <div>Follow Us</div>
