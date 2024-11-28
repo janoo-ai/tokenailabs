@@ -69,7 +69,7 @@ function Contact2() {
                 <FaRegUser className="absolute left-2 top-1/2 -translate-y-1/2 w-6 h-6" />
                 <input
                   name="name"
-                  placeholder="Enter Your Name"
+                  placeholder=" Name"
                   className="w-full rounded-xl p-5 pl-10"
                   value={userdetails.name}
                   onChange={handleChange}
@@ -82,7 +82,7 @@ function Contact2() {
                 <HiOutlineMailOpen className="absolute left-2 top-1/2 -translate-y-1/2 w-6 h-6" />
                 <input
                   name="email"
-                  placeholder="Enter Your Email"
+                  placeholder=" Email"
                   className="w-full rounded-xl p-5 pl-10"
                   value={userdetails.email}
                   onChange={handleChange}

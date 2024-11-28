@@ -55,8 +55,7 @@ function Page() {
                 About Us
               </div>
               <div className="text-4xl text-teal-300 font-bold">
-                We Are Creating Modern & High Quality AI Chatbots For Your
-                Application
+                We Create AI Driven Chatbots For Your Websites
               </div>
               <div className="text-teal-400 text-lg">
                 There are many variations of passage available, but the majority
@@ -235,15 +234,15 @@ function Page() {
                       industry.
                       <br />
                       <br />
-                      Founded in 2024, Life Force Molecules pvt. ltd. was born
-                      out of a desire to improve how businesses connect with
-                      their customers. We recognized the growing demand for
-                      instant, efficient communication solutions and set out to
-                      develop cutting-edge AI technologies that would not only
-                      meet but exceed those expectations. Today, we are proud to
-                      be a trusted partner for companies seeking to enhance
-                      their customer engagement strategies through intelligent
-                      chatbot solutions
+                      Founded in 2024, Token AI Labs pvt. ltd. was born out of a
+                      desire to improve how businesses connect with their
+                      customers. We recognized the growing demand for instant,
+                      efficient communication solutions and set out to develop
+                      cutting-edge AI technologies that would not only meet but
+                      exceed those expectations. Today, we are proud to be a
+                      trusted partner for companies seeking to enhance their
+                      customer engagement strategies through intelligent chatbot
+                      solutions
                     </p>
                     <br />
                     <br />
@@ -253,8 +252,8 @@ function Page() {
                       </heading>
                       <br />
                       <br />
-                      At Life Force Molecules pvt. ltd, our mission is to
-                      empower businesses with AI-driven chatbot technology that
+                      At Token AI Labs pvt. ltd, our mission is to empower
+                      businesses with AI-driven chatbot technology that
                       simplifies and enhances customer interactions. We believe
                       that effective communication is the cornerstone of
                       successful relationships, and our chatbots are designed to
@@ -305,9 +304,9 @@ function Page() {
                       </heading>
                       <br />
                       <br />
-                      At Life Force Molecules pvt. ltd, we offer a comprehensive
-                      suite of AI-driven chatbot services tailored to meet the
-                      unique needs of our clients. Our offerings include:
+                      At Token AI Labs pvt. ltd, we offer a comprehensive suite
+                      of AI-driven chatbot services tailored to meet the unique
+                      needs of our clients. Our offerings include:
                       <br />
                       <br />
                       <strong>Customer Service Automation:</strong> Our chatbots
@@ -332,7 +331,7 @@ function Page() {
                       <heading className="font-bold text-2xl">Our Team</heading>
                       <br />
                       <br />
-                      At Life Force Molecules pvt. ltd, our strength lies in our
+                      At Token AI Labs pvt. ltd, our strength lies in our
                       talented and diverse team of professionals. Our experts
                       bring a wealth of experience in AI, machine learning,
                       software development, and customer service. Together, we

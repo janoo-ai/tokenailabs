@@ -42,7 +42,7 @@ function ContactForm() {
           body: JSON.stringify({
             to: formValue.email,
             subject: "Thank you for connecting with us",
-            text: formValue.message,
+            text: formValue.E,
             name: formValue.name,
           }),
         });
@@ -64,9 +64,9 @@ function ContactForm() {
   };
 
   return (
-    <div className="w-full flex flex-col bg-[rgba(255,255,255,0.1)] p-5 rounded-lg text-slate-50">
+    <div className="w-full h-full flex flex-col bg-[rgba(255,255,255,0.1)] p-5 rounded-lg text-slate-50">
       <h1 className="text-4xl poppins-extrabold mt-5">Contact</h1>
-      <h2 className="text-4xl poppins-semibold">Get in touch</h2>
+
       <h6 className="mt-1 tracking-widest poppins-extralight text-base">
         LEAVE US A MESSAGE
       </h6>
@@ -83,7 +83,7 @@ function ContactForm() {
                 name="name"
                 value={formValue.name}
                 onChange={handleChange}
-                placeholder="Enter Your Name"
+                placeholder="Name"
                 className="p-2 border border-1 rounded border-solid border-slate-950 w-full pl-10"
               />
             </div>
@@ -98,7 +98,7 @@ function ContactForm() {
                 name="email"
                 value={formValue.email}
                 onChange={handleChange}
-                placeholder="Enter Your Email"
+                placeholder="Email"
                 className="p-2 border border-1 rounded border-solid border-slate-950 w-full px-10"
               />
             </div>
@@ -116,7 +116,7 @@ function ContactForm() {
               value={formValue.message}
               rows={5}
               onChange={handleChange}
-              placeholder="Enter Your Message"
+              placeholder="Message"
               className="p-2 border border-1 rounded border-solid border-slate-950 w-full px-10"
             />
           </div>
@@ -124,7 +124,7 @@ function ContactForm() {
             <p className="text-red-500 mt-1">{errors.message}</p>
           )}
         </div>
-        <div className="my-2 mt-5 md:my-5 rounded-full bg-gradient-to-r from-amber-300 to-yellow-800 w-full md:w-fit border border-2 border-slate-50 border-solid hover:scale-105">
+        <div className="my-2 mt-5 md:my-5 rounded-full bg-gradient-to-r from-amber-300 to-yellow-800 w-full md:w-fit border border-2 border-slate-50 border-solid hover:scale-105 flex items-end justify-end">
           <button
             type="submit"
             className="w-full px-10 py-3 font-bold text-slate-950">
