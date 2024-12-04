@@ -6,12 +6,12 @@ export async function POST(req) {
   const { to, subject, text, name } = await req.json();
 
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: "smtp.hostinger.com",
     secure: true,
     port: 465,
     auth: {
-      user: "jaanu.lifeforce@gmail.com",
-      pass: "mqywgjuojivfoesc",
+      user: "support@tokenailabs.com",
+      pass: "Tokenailabs@2024#",
     },
     debug: true,
   });
@@ -22,7 +22,7 @@ export async function POST(req) {
   try {
     // Send the email
     await transporter.sendMail({
-      from: process.env.SMTP_USER,
+      from: "support@tokenailabs.com",
       to,
       subject,
       text,
