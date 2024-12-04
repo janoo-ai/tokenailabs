@@ -55,7 +55,7 @@ function Contact2() {
     }
   };
   return (
-    <div className=" w-screen h-fit p-2 md:p-10 bg-[rgba(0,0,0,0.9)] ">
+    <div className=" w-screen h-fit px-2 pb-2 md:px-10 md:pb-10 bg-gradient-to-b from-[#002147]  via-black to-black">
       <div className="p-3 md:p-10 rounded-xl flex flex-col md:flex-row bg-black gap-5 md:gap-20">
         <div className="text-slate-50 flex flex-col justify-center">
           <h3 className="text-4xl poppins-semibold">Subscribe</h3>

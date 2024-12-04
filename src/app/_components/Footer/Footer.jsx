@@ -30,12 +30,17 @@ const socialIcons = [
 
 function Footer() {
   return (
-    <div className="w-screen h-fit   text-slate-50 relative  bg-gradient-to-b from-teal-950 to-black">
+    <div className="w-screen h-fit   text-slate-50 relative  bg-gradient-to-b from-[#002147] to-black">
       <div className="footerimg  bg-cover w-full h-fit p-3 md:p-10 md:px-20 ">
         <div className="w-full flex flex-col md:flex-row justify-between z-20">
           <div className="flex flex-col gap-2">
-            <div className="flex flex-col gap-2 justify-center w-fit h-fit">
-              <Image height={200} width={200} src="/logo.jpg" />
+            <div className="flex flex-col gap-2 justify-center w-fit h-fit ">
+              <Image
+                height={200}
+                width={200}
+                src="/logo.png"
+                className="bg-[rgba(255,255,255,0.9)] p-2 rounded-xl hover:invert"
+              />
               <h4 className="text-xl poppins-bold tracking-widest">
                 Token AI Labs Pvt. Ltd.
               </h4>
@@ -99,7 +104,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 text-center text-gray-500 text-sm hover:text-gray-300 duration-200	 ease-in">
+        <div className="mt-10 text-center text-gray-500 text-sm hover:text-gray-300 duration-200	 ease-in">
           &copy; {new Date().getFullYear()}{" "}
           <a href="/" className="hover:underline">
             Token Ai Labs Pvt. Ltd.

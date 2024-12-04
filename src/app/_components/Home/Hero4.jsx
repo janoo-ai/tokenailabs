@@ -3,12 +3,12 @@ import { RiRobot3Line } from "react-icons/ri";
 
 function Hero4() {
   return (
-    <div className="w-full  bg-[rgba(0,0,0,0.9)] p-3 md:p-10 md:px-20 md:pt-0 poppins-normal">
-      <div className="w-full flex flex-col p-3 sm:p-5 md:p-8 pb-5 bg-[rgba(255,255,255,0.9)]  rounded ">
-        <h3 className="text-center poppins-semibold text-2xl">
+    <div className="w-full  bg-[rgba(0,0,0,0.5)] px-3 pb-3 md:px-20 pb-10 md rounded-[0_0_20px_20px] pt-0 poppins-normal">
+      <div className="w-full flex flex-col p-3 sm:p-5 md:p-8 pb-5 bg-[rgba(255,255,255,0.9)]  rounded-xl group hover:invert ">
+        <h3 className="text-center poppins-semibold text-2xl text-[#002147] ">
           AI Services We Offer
         </h3>
-        <div className="w-full grid grid-cols-12 mt-5 md:mt-10 ">
+        <div className="w-full grid grid-cols-12 mt-5 md:mt-10 group-hover:invert ">
           <div className="col-span-12 flex flex-col bg-black group text-slate-100 p-5 rounded-xl">
             <div className="flex flex-col gap-2">
               <RiRobot3Line className="w-12 h-12 group-hover:fill-pink-500" />

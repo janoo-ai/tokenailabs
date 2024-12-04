@@ -15,11 +15,12 @@ import { TbWorldWww } from "react-icons/tb";
 
 const transition = {
   type: "spring",
-  mass: 0.5,
-  damping: 11.5,
+  mass: 0.8,
+  damping: 5.5,
   stiffness: 100,
-  restDelta: 0.001,
-  restSpeed: 0.001,
+  restDelta: 0.02,
+  restSpeed: 0.02,
+  duration: 0.8,
 };
 
 function Navbar({ className, bgColor }) {

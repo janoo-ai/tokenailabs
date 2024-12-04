@@ -4,23 +4,19 @@ import Contact1 from "../_components/Contact/Contact1";
 // import ContactMAps from "../_components/Contact/ContactMAps";
 import Contact2 from "../_components/Contact/Contact2";
 import Footer from "../_components/Footer/Footer";
+import { motion } from "framer-motion";
 
 function page() {
   return (
     <div className="w-screen flex flex-col ">
-      <div className="w-full pt-20 md:pt-24 flex flex-col-reverse md:flex-row p-2 md:p-10 gap-2 md:gap-10 bg-gradient-to-b from-black  via-black to-teal-950">
-        {/* <div className="w-full  md:w-1/2 bg-[rgba(0,0,0,0.5)] rounded-lg overflow-hidden ">
-          <ContactMAps />
-        </div> */}
+      <div className="w-full pt-20 md:pt-24 flex flex-col-reverse md:flex-row p-2 md:p-10 gap-2 md:gap-10 bg-gradient-to-b from-black  via-black to-[#002147]">
         <Contact1 />
         <div className=" w-full h-fit h-full">
           <Contactform />
         </div>
       </div>
-      {/*    */}
       <Contact2 />
-      <div className="w-full h-2 bg-black"></div>
-
+      <div className="w-full h-1 bg-cyan-400"></div>
       <Footer />
     </div>
   );
