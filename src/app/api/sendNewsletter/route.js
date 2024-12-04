@@ -10,8 +10,8 @@ export async function POST(req) {
     secure: true,
     port: 465,
     auth: {
-      user: "support@tokenailabs.com",
-      pass: "Tokenailabs@2024#",
+      user: process.env.NEXT_PUBLIC_USER,
+      pass: process.env.NEXT_PUBLIC_PASS,
     },
     debug: true,
   });
