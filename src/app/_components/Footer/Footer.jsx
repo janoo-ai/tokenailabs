@@ -53,6 +53,8 @@ function Footer() {
                   <a
                     key={index}
                     href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="hover:text-gray-400 p-2 rounded-lg border border-1 border-solid border-slate-400  hover:invert hover:scale-110"
                     aria-label={item.name}>
                     {item.icon}
