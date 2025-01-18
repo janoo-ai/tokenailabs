@@ -11,17 +11,17 @@ import Image from "next/image";
 
 const socialIcons = [
   {
-    href: "#",
+    href: "https://www.facebook.com/profile.php?id=61571779847588",
     icon: <FaFacebookSquare className="w-6 h-6 fill-blue-400" />,
     name: "Facebook",
   },
   {
-    href: "#",
+    href: "https://x.com/tokenailabs",
     icon: <FaXTwitter className="w-6 h-6" />,
     name: "Twitter",
   },
   {
-    href: "#",
+    href: "https://youtube.com/@tokenailabs?si=mTOEcULdnVFexlnM",
     icon: <FaYoutube className="w-6 h-6 fill-red-700" />,
     name: "Youtube",
   },
