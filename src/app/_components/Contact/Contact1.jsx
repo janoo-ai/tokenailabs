@@ -12,7 +12,7 @@ function Contact1() {
         {/* <h6 className="text-sm mt-3">
           YOU CAN GET ALL THE CONTACT INFORMATION
         </h6> */}
-        <div className="w-full grid grid-cols-12 gap-4 mt-10">
+        <div className="w-full grid grid-cols-12 gap-4 mt-5">
           <div className="col-span-12 md:col-span-12 flex p-5 rounded-xl bg-black text-slate-50 flex-col gap-2 hover:invert">
             <h5 className="font-bold ">Visit us</h5>
             <div className="flex gap-2 items-center">
@@ -23,7 +23,7 @@ function Contact1() {
               </p>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-12  flex  p-5 rounded-xl bg-black flex-col text-slate-50 gap-1 hover:invert">
+          {/* <div className="col-span-12 md:col-span-12  flex  p-5 rounded-xl bg-black flex-col text-slate-50 gap-1 hover:invert">
             <h5 className="font-bold ">Contact us</h5>
             <ul className=" flex flex-col justify-center">
               <li className="flex gap-2 hover:underline">
@@ -31,7 +31,7 @@ function Contact1() {
                 +91 22 67978289
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="col-span-12 md:col-span-12 flex  p-5 rounded-xl bg-black text-slate-50 flex-col gap-2 hover:invert">
             <h5 className="font-bold ">Email us</h5>
             <div className="flex gap-2">
